@@ -25,6 +25,7 @@ const Portals = { Component: lazy(() => import('./Portals')) }
 const ViewTracking = { Component: lazy(() => import('./ViewTracking')) }
 const ChangeTexture = { Component: lazy(() => import('./ChangeTexture')) }
 const WebGPU = { Component: lazy(() => import('./WebGPU')) }
+const Container = { Component: lazy(() => import('./Container20')) }
 
 export {
   AutoDispose,
@@ -52,4 +53,5 @@ export {
   ViewTracking,
   ChangeTexture,
   WebGPU,
+  Container,
 }
